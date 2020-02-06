@@ -1,6 +1,6 @@
-package com.eugene.sumarry.observer.observer.impl;
+package com.eugene.sumarry.observer1.observer.impl;
 
-import com.eugene.sumarry.observer.observer.MakeOrderObserver;
+import com.eugene.sumarry.observer1.observer.MakeOrderObserver;
 
 /**
  * 添加下单主题的库存观察者

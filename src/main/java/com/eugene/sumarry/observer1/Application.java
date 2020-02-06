@@ -1,8 +1,8 @@
-package com.eugene.sumarry.observer;
+package com.eugene.sumarry.observer1;
 
-import com.eugene.sumarry.observer.common.MakeOrderWatch;
-import com.eugene.sumarry.observer.observer.impl.SMSObserver;
-import com.eugene.sumarry.observer.observer.impl.StockObserver;
+import com.eugene.sumarry.observer1.common.MakeOrderWatch;
+import com.eugene.sumarry.observer1.observer.impl.SMSObserver;
+import com.eugene.sumarry.observer1.observer.impl.StockObserver;
 
 public class Application {
 

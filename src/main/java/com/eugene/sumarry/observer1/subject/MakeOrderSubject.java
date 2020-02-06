@@ -1,6 +1,6 @@
-package com.eugene.sumarry.observer.subject;
+package com.eugene.sumarry.observer1.subject;
 
-import com.eugene.sumarry.observer.observer.MakeOrderObserver;
+import com.eugene.sumarry.observer1.observer.MakeOrderObserver;
 
 /**
  * 下订单主题:

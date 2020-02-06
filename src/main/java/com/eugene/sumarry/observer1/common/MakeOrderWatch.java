@@ -1,7 +1,7 @@
-package com.eugene.sumarry.observer.common;
+package com.eugene.sumarry.observer1.common;
 
-import com.eugene.sumarry.observer.observer.MakeOrderObserver;
-import com.eugene.sumarry.observer.subject.MakeOrderSubject;
+import com.eugene.sumarry.observer1.observer.MakeOrderObserver;
+import com.eugene.sumarry.observer1.subject.MakeOrderSubject;
 
 import java.util.ArrayList;
 import java.util.List;
