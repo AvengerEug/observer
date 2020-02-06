@@ -1,8 +1,12 @@
-package com.eugene.sumarry.observer2;
+package com.eugene.sumarry.observer3;
 
-public class Movice implements Runnable {
+public class Movie implements Runnable {
 
-    private volatile boolean isAction;
+    private Person person;
+
+    public Movie(Person person) {
+        this.person = person;
+    }
 
     @Override
     public void run() {
@@ -12,13 +16,7 @@ public class Movice implements Runnable {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
-        this.isAction = true;
+        person.wc();
     }
-
-    public boolean isAction() {
-        return this.isAction;
-    }
-
 
 }

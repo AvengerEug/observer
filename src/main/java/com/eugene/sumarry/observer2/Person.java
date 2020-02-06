@@ -2,15 +2,15 @@ package com.eugene.sumarry.observer2;
 
 public class Person implements Runnable {
 
-    private Movice movice;
+    private Movie movice;
 
-    public Person(Movice movice) {
+    public Person(Movie movice) {
         this.movice = movice;
     }
 
     @Override
     public void run() {
-        System.out.println("Person 开始看电影");
+        System.out.println("PersonA 开始看电影");
         while(true) {
             if (movice.isAction()) {
                 wc();
@@ -21,7 +21,7 @@ public class Person implements Runnable {
     }
 
     public void wc() {
-        System.out.println("Person goto wc");
+        System.out.println("PersonA goto wc");
     }
 
 

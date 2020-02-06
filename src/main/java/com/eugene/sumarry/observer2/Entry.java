@@ -3,7 +3,7 @@ package com.eugene.sumarry.observer2;
 public class Entry {
 
     public static void main(String[] args) {
-        Movice movice = new Movice();
+        Movie movice = new Movie();
         Thread threadMovice = new Thread(movice);
         threadMovice.start();
 
